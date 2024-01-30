@@ -1,8 +1,8 @@
-import Board from "@/components/Board";
+import Board from "@/components/Board/Board";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="mt-8">
       <Board />
     </div>
   );
